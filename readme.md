@@ -35,14 +35,6 @@ then add:
 "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
 },
 
-then add:
-
-"eslintConfig": {
-"extends": [
-"react-app"
-]
-},
-
 copy webpack.config.js, .gitignore, src, .babelrc, .eslintrc.cjs files and paste it in project
 
 // if you use yarn:
