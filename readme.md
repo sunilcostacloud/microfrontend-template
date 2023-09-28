@@ -8,7 +8,7 @@ yarn add react react-dom
 
 yarn add @babel/runtime
 
-yarn add --dev @babel/core @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react autoprefixer babel-loader css-loader html-webpack-plugin postcss postcss-loader style-loader webpack webpack-cli file-loader clean-webpack-plugin webpack-dev-server
+yarn add --dev @babel/core @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react autoprefixer babel-loader css-loader html-webpack-plugin postcss postcss-loader style-loader webpack webpack-cli file-loader clean-webpack-plugin webpack-dev-server eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh
 
 // if you use npm:
 
@@ -42,7 +42,7 @@ then add:
 ]
 },
 
-copy webpack.config.js, .gitignore, src and .babelrc files and paste it in project
+copy webpack.config.js, .gitignore, src, .babelrc, .eslintignore, .eslintrc.cjs files and paste it in project
 
 // if you use yarn:
 
