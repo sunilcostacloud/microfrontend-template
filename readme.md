@@ -31,7 +31,8 @@ then add:
 "build:dev": "webpack --mode development",
 "build:start": "cd dist && PORT=8080 npx serve",
 "start": "webpack serve --open --mode development",
-"start:live": "webpack serve --open --mode development --live-reload --hot"
+"start:live": "webpack serve --open --mode development --live-reload --hot",
+"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
 },
 
 then add:
