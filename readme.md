@@ -43,7 +43,7 @@ then add:
 ]
 },
 
-copy webpack.config.js, .gitignore, src, .babelrc, .eslintignore, .eslintrc.cjs files and paste it in project
+copy webpack.config.js, .gitignore, src, .babelrc, .eslintrc.cjs files and paste it in project
 
 // if you use yarn:
 
