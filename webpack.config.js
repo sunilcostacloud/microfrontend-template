@@ -48,6 +48,18 @@ module.exports = (_, argv) => ({
           },
         ],
       },
+      // Rule for processing HTML files
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: "html-loader",
+            options: {
+              minimize: true,
+            },
+          },
+        ],
+      },
     ],
   },
 
