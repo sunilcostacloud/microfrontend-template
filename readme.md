@@ -18,7 +18,7 @@ npm install react react-dom --save
 
 npm install @babel/runtime --save
 
-npm install --save-dev @babel/core @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react autoprefixer babel-loader css-loader html-webpack-plugin postcss postcss-loader style-loader webpack webpack-cli file-loader clean-webpack-plugin webpack-dev-server
+npm install --save-dev @babel/core @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react autoprefixer babel-loader css-loader html-webpack-plugin postcss postcss-loader style-loader webpack webpack-cli file-loader clean-webpack-plugin webpack-dev-server eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh html-loader
 
 // package.json
 
